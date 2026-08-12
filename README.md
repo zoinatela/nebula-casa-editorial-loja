@@ -47,7 +47,7 @@ Há também um bloco no `<head>`:
 </script>
 ```
 
-**Troque o `href` de todos os botões `.btn-cta` daquela página** (hero, CTA final e sticky) pelo link Hotmart do produto. Há 3 botões por página — use busca por `data-product="XX"` ou por `#cole-seu-link-hotmart`.
+**Troque o `href` de todos os botões `.btn-cta` daquela página** (hero, CTA final e sticky) pelo link Hotmart do produto. Há 3 botões por página — use busca por `data-product="XX"`.
 
 ### Status atual dos links
 
@@ -59,9 +59,9 @@ Há também um bloco no `<head>`:
 | 03 Corpo e Mente | `corpo-e-mente.html` | https://hotmart.com/pt-br/marketplace/produtos/corpo-e-mente-em-casa/M107123310G |
 | 04 Conversa que Conecta | `conversa-que-conecta.html` | https://hotmart.com/pt-br/marketplace/produtos/hagsxd-conversa-que-conecta-iquzr/L107123365Y |
 | Kit | `kit.html` | https://hotmart.com/pt-br/marketplace/produtos/kit-vida-em-ordem/E107123439V |
-| 06 Pack Planilha + Guia | `planilha-controle-financeiro.html` | `#cole-seu-link-hotmart` |
+| 06 Pack Planilha + Guia | `planilha-controle-financeiro.html` | https://hotmart.com/pt-br/marketplace/produtos/pack-planilha-guia-controle-no-excel-nebula/L107124391A |
 
-Quando o produto estiver no ar na Hotmart, copie o link de checkout/página e substitua `#cole-seu-link-hotmart` em todos os CTAs da página correspondente.
+Quando um produto novo for para o ar na Hotmart, copie o link de checkout/página e substitua o placeholder nos CTAs da página correspondente.
 
 ## Deploy
 
