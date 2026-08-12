@@ -1,5 +1,7 @@
 # Loja Nébula Casa Editorial
 
+**Site online:** https://zoinatela.github.io/nebula-casa-editorial-loja/
+
 Páginas de vendas externas (Hotmart Host com limite de páginas). Cada produto tem landing própria; o checkout continua na Hotmart.
 
 ## Estrutura
@@ -50,10 +52,11 @@ Há também um bloco no `<head>`:
 | Produto | Página | Checkout |
 |---------|--------|----------|
 | 01 Dinheiro no Controle | `dinheiro-no-controle.html` | `https://ginistore7.hotmart.host/dinheiro-no-controle` |
-| 02 Renda Extra Digital | `renda-extra-digital.html` | `#cole-seu-link-hotmart` ← **colar link** |
-| 03 Corpo e Mente | `corpo-e-mente.html` | `#cole-seu-link-hotmart` ← **colar link** |
-| 04 Conversa que Conecta | `conversa-que-conecta.html` | `#cole-seu-link-hotmart` ← **colar link** |
-| Kit | `kit.html` | `#cole-seu-link-hotmart` ← **colar link** |
+| 01 Dinheiro no Controle | `dinheiro-no-controle.html` | https://ginistore7.hotmart.host/dinheiro-no-controle |
+| 02 Renda Extra Digital | `renda-extra-digital.html` | https://hotmart.com/pt-br/marketplace/produtos/hagsxd-renda-extra-digital-k54zp/X107123065M |
+| 03 Corpo e Mente | `corpo-e-mente.html` | https://hotmart.com/pt-br/marketplace/produtos/corpo-e-mente-em-casa/M107123310G |
+| 04 Conversa que Conecta | `conversa-que-conecta.html` | https://hotmart.com/pt-br/marketplace/produtos/hagsxd-conversa-que-conecta-iquzr/L107123365Y |
+| Kit | `kit.html` | https://hotmart.com/pt-br/marketplace/produtos/kit-vida-em-ordem/E107123439V |
 
 Quando o produto estiver no ar na Hotmart, copie o link de checkout/página e substitua `#cole-seu-link-hotmart` em todos os CTAs da página correspondente.
 
