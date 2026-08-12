@@ -8,15 +8,16 @@ Páginas de vendas externas (Hotmart Host com limite de páginas). Cada produto 
 
 ```
 loja/
-  index.html                 → catálogo
-  dinheiro-no-controle.html  → 01 (checkout Hotmart ativo)
-  renda-extra-digital.html   → 02
-  corpo-e-mente.html         → 03
-  conversa-que-conecta.html  → 04
-  kit.html                   → kit completo
+  index.html                         → catálogo
+  dinheiro-no-controle.html          → 01
+  renda-extra-digital.html           → 02
+  corpo-e-mente.html                 → 03
+  conversa-que-conecta.html          → 04
+  kit.html                           → kit 4 ebooks (SEM planilha completa)
+  planilha-controle-financeiro.html  → 06 Pack Planilha + Guia (SKU à parte)
   css/loja.css
   js/loja.js
-  img/                       → capas JPG (self-contained)
+  img/                               → capas JPG (self-contained)
   README.md
 ```
 
@@ -26,6 +27,7 @@ loja/
 |---------|-------|
 | Ebooks 01–04 | R$ 12,90 |
 | Kit (4 volumes) | R$ 29,90 |
+| Pack Planilha + Guia (06) | R$ 24,90 |
 
 ## Como atualizar links de checkout
 
@@ -57,6 +59,7 @@ Há também um bloco no `<head>`:
 | 03 Corpo e Mente | `corpo-e-mente.html` | https://hotmart.com/pt-br/marketplace/produtos/corpo-e-mente-em-casa/M107123310G |
 | 04 Conversa que Conecta | `conversa-que-conecta.html` | https://hotmart.com/pt-br/marketplace/produtos/hagsxd-conversa-que-conecta-iquzr/L107123365Y |
 | Kit | `kit.html` | https://hotmart.com/pt-br/marketplace/produtos/kit-vida-em-ordem/E107123439V |
+| 06 Pack Planilha + Guia | `planilha-controle-financeiro.html` | `#cole-seu-link-hotmart` |
 
 Quando o produto estiver no ar na Hotmart, copie o link de checkout/página e substitua `#cole-seu-link-hotmart` em todos os CTAs da página correspondente.
 
